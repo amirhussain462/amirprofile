@@ -1,0 +1,43 @@
+/* Certifications Section Styling */
+#certifications {
+    padding: 3rem 1.5rem;
+    background-color: #f3f4f6;
+    color: #333;
+    text-align: center;
+}
+
+#certifications h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: #3949ab;
+    border-bottom: 3px solid #3949ab;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+#certifications ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#certifications ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    background: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#certifications ul li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#certifications strong {
+    color: #1a237e;
+    font-weight: bold;
+}
