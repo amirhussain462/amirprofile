@@ -1,0 +1,36 @@
+{
+    "header": {
+        "title": "Amir Hussain Shaik - Portfolio",
+        "nav": [
+            {
+                "name": "About Me",
+                "link": "#about",
+                "bgImage": "about-bg.jpg"
+            },
+            {
+                "name": "Skills",
+                "link": "skills.html",
+                "bgImage": "skills-bg.jpg"
+            },
+            {
+                "name": "Experience & Projects",
+                "link": "experience_projects.html",
+                "bgImage": "experience-bg.jpg"
+            },
+            {
+                "name": "Certifications",
+                "link": "certifications.html",
+                "bgImage": "certifications-bg.jpg"
+            },
+            {
+                "name": "Contact",
+                "link": "contact.html",
+                "bgImage": "contact-bg.jpg"
+            }
+        ],
+        "headerSection": {
+            "heading": "AMIR HUSSAIN SHAIK",
+            "description": "Electrical & Maintenance Engineer Specializing in - Electro-Mechanical & Automation Systems Installation & Commissioning | Troubleshooting | Maintenance | Administration | Lean Six Sigma Methodologies | Workplace Safety"
+        }
+    }
+}
