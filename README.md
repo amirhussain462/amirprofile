@@ -1,2 +1,2 @@
 # amirprofile
-repositories with separate html files 
+repositories with separate sections with their .json and .html files 
