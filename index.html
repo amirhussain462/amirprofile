@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amir Hussain Shaik - Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- You can link your external styles.css here if needed -->
+    <link rel="stylesheet" href="styles.css"> <!-- External stylesheet -->
+    <script defer src="header.js"></script> <!-- JS to dynamically load the header -->
 </head>
 <body>
-    <!-- Header Section -->
-    <header style="background-image: url('default-header-bg.jpg');">
-        <h1>AMIR HUSSAIN SHAIK</h1>
-        <p>Electrical & Maintenance Engineer Specializing in - Electro-Mechanical & Automation Systems Installation & Commissioning | Troubleshooting | Maintenance | Administration | Lean Six Sigma Methodologies | Workplace Safety</p>
-    </header>
+    <!-- Header Section (loaded dynamically from header.html) -->
+    <div id="header-container"></div>
 
     <!-- Navigation Menu -->
     <nav>
@@ -24,7 +22,7 @@
         </ul>
     </nav>
 
-    <!-- Main Section (could be a short introduction) -->
+    <!-- Main Section -->
     <section id="home">
         <h2>Welcome to My Portfolio</h2>
         <p>This portfolio showcases my work, skills, and experience in the Electro-Mechanical & Automation industry.</p>
@@ -35,9 +33,5 @@
     <footer>
         <p>Portfolio of Amir Hussain Shaik | Powered by GitHub Pages</p>
     </footer>
-
-    <script>
-        // You can add any additional JavaScript functionality here, if needed
-    </script>
 </body>
 </html>
