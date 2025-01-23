@@ -40,3 +40,80 @@
     max-width: 80%;
     line-height: 1.5;
 }
+/* Enhanced Header Styling */
+#header {
+    position: relative;
+    height: 250px; /* Adjust height if needed */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Slightly darker for more contrast */
+    z-index: 1;
+    border-bottom: 3px solid #fff; /* Optional: Add a border at the bottom */
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
+}
+
+#header-title {
+    font-size: 2.8rem; /* Slightly larger for emphasis */
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add subtle text shadow */
+}
+
+#header-tagline {
+    font-size: 1.1rem;
+    margin: 10px 0 0;
+    max-width: 80%;
+    line-height: 1.5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); /* Text shadow for better readability */
+}
+/* Navigation Links */
+nav a {
+    color: #0056b3; /* A subtle blue shade */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #00376b; /* Slightly darker shade on hover */
+}
+
+nav {
+    text-align: center; /* Center the navigation links */
+    margin-top: 20px; /* Add spacing above links */
+}
+/* Add margin between sections */
+section {
+    margin: 40px 0;
+}
+/* Footer Styling */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 40px;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9; /* Optional: Light background for contrast */
+}
